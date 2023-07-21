@@ -9,12 +9,8 @@ int main(void)
 {
         int i;
 
-        if (i > 0) {
-	printf("i is positive\n");
-}
-	else (i > 0) {
-	printf("i is negative \n");
-}
+        i = 98;
+        positive_or_negative(i);
 
         return (0);
 }
